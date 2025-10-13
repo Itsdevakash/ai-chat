@@ -127,7 +127,7 @@ toast.error(err.message);
     className='bg-white rounded-xl p-6 w-full '
     placeholder='Chat with ai from here'
     value={message}
-    onChange={(e)=>setMessage(e.target.value.trim())}
+    onChange={(e)=>setMessage(e.target.value)}
     />
     <button  className='bg-yellow-600 px-12 rounded-xl px-12  text-white flex-col items-center justify-center hover:bg-green-400 hover:scale-105transition-transform duration-300 '>
       <ExternalLink />
