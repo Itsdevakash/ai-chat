@@ -4,7 +4,7 @@ import 'animate.css';
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import moment from 'moment';
-const API_KEY = "AIzaSyBv65qwMmgyN-sLta89GVdhi0LwNuCUa9U";
+const API_KEY = "";
 
 export default function App() {
 const[message,setMessage] = useState('')
